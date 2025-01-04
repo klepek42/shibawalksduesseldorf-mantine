@@ -1,13 +1,20 @@
-import { Button, Group, useMantineColorScheme } from '@mantine/core';
+import { IconMoon, IconSun } from '@tabler/icons-react';
+import { ActionIcon, useMantineColorScheme } from '@mantine/core';
+import cx from 'clsx';
+import classes from './ColorScheme.module.css';
 
 export function ColorSchemeToggle() {
-  const { setColorScheme } = useMantineColorScheme();
+  const { toggleColorScheme } = useMantineColorScheme();
 
   return (
-    <Group justify="center" mt="xl">
-      <Button onClick={() => setColorScheme('light')}>Light</Button>
-      <Button onClick={() => setColorScheme('dark')}>Dark</Button>
-      <Button onClick={() => setColorScheme('auto')}>Auto</Button>
-    </Group>
+    <ActionIcon
+        onClick={() => toggleColorScheme()}
+        variant="default"
+        size="xl"
+        aria-label="Toggle color scheme"
+    >
+        <IconSun className={cx(classes.icon, classes.light)} stroke={1.5} />
+        <IconMoon className={cx(classes.icon, classes.dark)} stroke={1.5} />
+    </ActionIcon>
   );
 }
