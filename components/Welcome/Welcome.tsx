@@ -5,13 +5,15 @@ import { MantineLogo } from '@mantinex/mantine-logo';
 import { ColorSchemeToggle } from '@/components/ColorSchemeToggle/ColorSchemeToggle';
 import classes from './Welcome.module.css';
 import {FooterSocial} from '@/components/Footer/FooterSocial';
+import {Features} from '@/components/Features/Features';
 
 const links = [
   { link: '/home', label: 'Home' },
-  { link: '/dates', label: 'Dates' },
-  { link: '/photos', label: 'Fotos' },
+  { link: '/dates', label: 'Termine' },
   { link: '/rules', label: 'Regeln' },
+  { link: '/photos', label: 'Fotos' },
   { link: '/routes', label: 'Routen' },
+  { link: '/dogs', label: 'Hunde' },
 ];
 
 export function Welcome() {
@@ -60,12 +62,9 @@ export function Welcome() {
         </Title>
         <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
           Monatliche Rassetreffen und gemeinsame Gassigänge mit unseren Shiba Inus
-          in und um Düsseldorf.
-          Für News folge uns auf{' '}
-          <Anchor href="https://www.instagram.com/shiba_walks_duesseldorf/" size="lg">
-            Instagram
-          </Anchor>
+          im Umkreis von Düsseldorf.
         </Text>
+        <Features />
       </main>
       <FooterSocial />
     </>
