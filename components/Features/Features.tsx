@@ -1,6 +1,6 @@
 import {
     IconBook,
-    IconCamera,
+    IconCamera, IconChecklist,
     IconDog,
     IconWalk
 } from '@tabler/icons-react';
@@ -12,13 +12,13 @@ export const MOCKDATA = [
         icon: IconWalk,
         title: 'Gemeinsame Spaziergänge',
         description:
-            'This dust is actually a powerful poison that will even make a pro wrestler sick, Regice cloaks itself with frigid air of -328 degrees Fahrenheit',
+            'Entdecke neue Routen mit unseren Walks und freu dich auf gesprächige Spaziergänge.',
     },
     {
         icon: IconDog,
         title: 'Spiel und Spaß',
         description:
-            'People say it can run at the same speed as lightning striking, Its icy body is so cold, it will not melt even if it is immersed in magma',
+            'Je nach Route gibt es auch die Möglichkeit unsere Hunde im Freilauf toben zu lassen. Achtet nur bitte darauf, dass nur freundliche Hunde von der Leine gelassen werden.',
     },
     {
         icon: IconBook,
@@ -31,6 +31,12 @@ export const MOCKDATA = [
         title: 'Fotos',
         description:
             'Jeder ist eingeladen Fotos zu machen. Darüber hinaus gibt es auch Teilnehmer mit professionellem Equipment die gerne Bilder von uns und unseren Hunden machen und teilen. Es werden regelmäßig Gruppen- und Einzelbilder jeglicher Hunde gemacht.',
+    },
+    {
+        icon: IconChecklist,
+        title: 'Regeln',
+        description:
+            'Damit alles glatt läuft, haben wir ein minimales Set an Grundregeln aufgestellt. Bitte haltet euch an diese Regeln.',
     },
 ];
 
