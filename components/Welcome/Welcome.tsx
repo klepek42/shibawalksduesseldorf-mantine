@@ -1,7 +1,6 @@
 import React from 'react';
 import { Text, Title } from '@mantine/core';
 import { Features } from '@/components/Features/Features';
-import { FooterSocial } from '@/components/Footer/FooterSocial';
 import classes from './Welcome.module.css';
 
 export function Welcome() {
@@ -25,7 +24,6 @@ export function Welcome() {
         </Text>
         <Features />
       </main>
-      <FooterSocial />
     </>
   );
 }

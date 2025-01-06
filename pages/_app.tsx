@@ -1,8 +1,10 @@
 import '@mantine/core/styles.css';
 
+import React from 'react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { MantineProvider } from '@mantine/core';
+import { FooterSocial } from '@/components/Footer/FooterSocial';
 import { NavigationBar } from '@/components/NavigationBar';
 import { theme } from '../theme';
 
@@ -19,6 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <NavigationBar />
       <Component {...pageProps} />
+      <FooterSocial />
     </MantineProvider>
   );
 }
