@@ -7,7 +7,7 @@ export const Regeln = () => {
       <Container my="md">
         <h1>Regeln</h1>
           <Text color="dimmed" size="lg" mx="auto" mt="xl" mb="xl">
-              Einige Grundregeln für ein entspanntes Miteinander!
+              Einige Grundregeln für ein entspanntes Miteinander
           </Text>
           <Text size="lg">1. Kein ungefragter Hundekontakt</Text>
           <Text size="lg">2. Immer freundlich und respektvoll den anderen gegenüber agieren</Text>
@@ -16,7 +16,7 @@ export const Regeln = () => {
           <Text size="lg">5. Bei Problemen oder Unstimmigkeiten bitte an die Organisatoren werden</Text>
           <Text size="lg">6. Einen fremden Hund nicht einfach anfassen oder füttern</Text>
           <Text size="lg">7. Falls doch etwas passiert, bitte Ruhe bewahren, Hunde trennen und weitermachen</Text>
-          <Text size="lg">8. Falls jemand nicht fotografiert und/oder gepostet werden will, bitte sofort Bescheid geben. Es wird nicht jedes Mal erneut gefragt</Text>
+          <Text size="lg">8. Falls jemand nicht fotografiert/gepostet werden will, bitte sofort Bescheid geben</Text>
           <Text size="lg">9. Spaß haben</Text>
       </Container>
     </>
