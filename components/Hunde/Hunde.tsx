@@ -26,7 +26,7 @@ export const Hunde = () => {
   return (
     <>
       <Container my="md">
-        <h1>Unsere Hunde</h1>
+        <h1>Unsere Hunde ({DUMMY_DOGS.length})</h1>
         <AvatarGroup dogs={DUMMY_DOGS} />
       </Container>
     </>
