@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, Title } from '@mantine/core';
 import { Features } from '@/components/Features/Features';
 import classes from './Welcome.module.css';
+import {WelcomeCarousel} from '@/components/Welcome/WelcomeCarousel';
 
 export function Welcome() {
   return (
@@ -18,10 +19,11 @@ export function Welcome() {
           </Text>{' '}
           Düsseldorf
         </Title>
-        <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
+        <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl" mb="xl">
           Monatliche Rassetreffen und gemeinsame Gassigänge mit unseren Shiba Inus im Umkreis von
           Düsseldorf.
         </Text>
+        <WelcomeCarousel />
         <Features />
       </main>
     </>
